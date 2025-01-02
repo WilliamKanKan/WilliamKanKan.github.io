@@ -30,6 +30,9 @@
     display: block;
   }
 }
+html, body {
+  overflow-x: hidden;
+}
 
 /* 重置基础样式 */
 body, html {
