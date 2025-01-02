@@ -1,0 +1,134 @@
+#navbar-toggle {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+}
+
+.navbar-toggle-icon {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 6px 0;
+}
+
+#navbar-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  #navbar-menu.show {
+    display: block;
+  }
+}
+
+/* 重置基础样式 */
+body, html {
+  background: #15202b !important;
+}
+
+#container {
+  background: #15202b !important;
+}
+
+.body-wrap {
+  background: #15202b !important;
+}
+
+/* 导航栏 */
+.meta.inner {
+  background: #15202b !important;
+}
+
+.meta.inner h1 a,
+.meta.inner h2 a,
+.meta.inner nav a {
+  color: #ffffff !important;
+}
+
+/* 文章列表和内容 */
+.article {
+  background: #1e2732 !important;
+  border: 1px solid #38444d !important;
+  color: #ffffff !important;
+}
+
+.article-title,
+.article-title a,
+.article-entry,
+.article-entry p {
+  color: #ffffff !important;
+}
+
+.article-meta,
+.article-meta a {
+  color: #8b98a5 !important;
+}
+
+/* 侧边栏 */
+.widget {
+  border: 1px solid #38444d !important;
+}
+
+.widget-title {
+  border-bottom: 1px solid #38444d !important;
+}
+
+.widget a {
+  color: #8B98A5 !important;
+}
+
+.widget a:hover {
+  color: #1d9bf0 !important;
+}
+
+/* 标签云 */
+.tagcloud a {
+  color: #8b98a5 !important;
+}
+
+.tagcloud a:hover {
+  color: #1d9bf0 !important;
+}
+
+
+
+a:hover {
+  color: #1a8cd8 !important;
+}
+
+/* 移动端菜单 */
+.navbar-toggle-icon {
+  background-color: #ffffff !important;
+}
+
+/* 时间和元数据 */
+.time {
+  color: #8b98a5 !important;
+}
+
+/* 分类和标签计数 */
+.category-list-count,
+.tag-list-count {
+  color: #8b98a5 !important;
+}
+
+/* 代码块 */
+pre, code {
+  background: #15202b !important;
+  color: #ffffff !important;
+}
+@media screen and (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+}
