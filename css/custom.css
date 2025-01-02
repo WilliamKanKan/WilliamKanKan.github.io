@@ -30,21 +30,21 @@
     display: block;
   }
 }
-html, body {
-  overflow-x: hidden;
-}
 
 /* 重置基础样式 */
 body, html {
   background: #15202b !important;
+  overflow-x: hidden;
 }
 
 #container {
   background: #15202b !important;
+  overflow-x: hidden;
 }
 
 .body-wrap {
   background: #15202b !important;
+  overflow-x: hidden;
 }
 
 /* 导航栏 */
