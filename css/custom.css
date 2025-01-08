@@ -82,6 +82,7 @@ body, html {
   border: 1px solid #38444d !important;
 }
 
+
 .widget-title {
   border-bottom: 1px solid #38444d !important;
 }
@@ -130,7 +131,7 @@ pre, code {
   background: #15202b !important;
   color: #ffffff !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1260px) {
   #sidebar {
     display: none;
   }
